@@ -1,8 +1,5 @@
 # README
 
-
-
-
 ## usersテーブル ※gem deviseを利用する
 |Column|Type|Options|
 |------|----|-------|
