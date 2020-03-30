@@ -176,4 +176,4 @@ Ruby/Ruby on Rails/MySQL/Github/AWS/Visual Studio Code/HAML/SCSS/JavaScript/jQue
 
 ## ●開発担当箇所
 -商品出品ページ（フロントエンド）  
-![85ecbdcadf2246d64306b06e21271326](https://user-images.githubusercontent.com/60685829/77879536-9bee4a00-7295-11ea-9dc0-711ae762b8ad.gif)
+![a6659ef020f78db867b931a184f5aafe](https://user-images.githubusercontent.com/60685829/77884153-7e25e280-729f-11ea-840e-d9225187900a.gif)
