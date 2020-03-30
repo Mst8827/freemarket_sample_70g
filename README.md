@@ -175,18 +175,18 @@ Ruby/Ruby on Rails/MySQL/Github/AWS/Visual Studio Code/HAML/SCSS/JavaScript/jQue
 <img width="1417" alt="スクリーンショット 2020-03-30 13 38 55" src="https://user-images.githubusercontent.com/60685829/77877729-8ecf5c00-7291-11ea-921e-83d0ccc8b2a5.png">
 
 ## ●開発担当箇所
-#####-商品出品ページ（フロントエンド）  
+##### -商品出品ページ（フロントエンド）  
 ![a6659ef020f78db867b931a184f5aafe](https://user-images.githubusercontent.com/60685829/77884153-7e25e280-729f-11ea-840e-d9225187900a.gif)<br>
-<br>
-#####-クレジットカード登録ページ（フロントエンド）
+
+##### -クレジットカード登録ページ（フロントエンド）
 <img width="799" alt="スクリーンショット 2020-03-28 17 18 25" src="https://user-images.githubusercontent.com/60685829/77884476-1f149d80-72a0-11ea-94c0-cb82ad8b6e88.png"><br>
-<br>
-#####-商品詳細画像複数表示（フロントエンド）
+
+##### -商品詳細画像複数表示（フロントエンド）
 ![d2d367292430cb516b813f3f634c9f37](https://user-images.githubusercontent.com/60685829/77885241-a31b5500-72a1-11ea-9a04-16f84561a734.gif)<br>
-<br>
-#####-トップページ/新着投稿一覧表示（バックエンド）<br>
-<br>
-#####-お気に入り機能（バックエンド）<br>
+
+##### -トップページ/新着投稿一覧表示（バックエンド）<br>
+
+##### -お気に入り機能（バックエンド）<br>
 ![b724053548145ff739d6bcc01ef8b3ca](https://user-images.githubusercontent.com/60685829/77886004-0c4f9800-72a3-11ea-9a14-4bd25f9b08d8.gif)
 
 
