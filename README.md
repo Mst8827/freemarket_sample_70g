@@ -186,7 +186,7 @@ Ruby/Ruby on Rails/MySQL/Github/AWS/Visual Studio Code/HAML/SCSS/JavaScript/jQue
 <br>
 -トップページ/新着投稿一覧表示（バックエンド）<br>
 <br>
--お気に入り機能（バックエンド）
+-お気に入り機能（バックエンド）<br>
 ![b724053548145ff739d6bcc01ef8b3ca](https://user-images.githubusercontent.com/60685829/77886004-0c4f9800-72a3-11ea-9a14-4bd25f9b08d8.gif)
 
 
