@@ -190,6 +190,6 @@ Ruby/Ruby on Rails/MySQL/Github/AWS/Visual Studio Code/HAML/SCSS/JavaScript/jQue
 ![b724053548145ff739d6bcc01ef8b3ca](https://user-images.githubusercontent.com/60685829/77886004-0c4f9800-72a3-11ea-9a14-4bd25f9b08d8.gif)
 
 ##### -マイページ追加機能（フロントエンド & バックエンド）
-
+![0f620ae158987436f3e1c6a0671c696f](https://user-images.githubusercontent.com/60685829/77890612-ba127500-72aa-11ea-87a3-109dc4c7f1be.gif)
 
 
