@@ -185,11 +185,22 @@ Ruby/Ruby on Rails/MySQL/Github/AWS/Visual Studio Code/HAML/SCSS/JavaScript/jQue
 ![d2d367292430cb516b813f3f634c9f37](https://user-images.githubusercontent.com/60685829/77885241-a31b5500-72a1-11ea-9a04-16f84561a734.gif)<br>
 
 ##### -トップページ/新着投稿一覧表示（バックエンド）<br>
+・新着順に投稿一覧が表示される<br>
+・コントローラーで降順で商品情報を取得<br>
+・haml.scssを使用して新着順に8つ（4✕2列）で表示する<br>
 
 ##### -お気に入り機能（バックエンド）<br>
+・商品のお気に入り機能実装<br>
+・お気に入りした商品は、マイページから閲覧できる<br>
+・ajaxを用いた非同期通信での機能実装<br>
+・お気に入りした商品は、マイページから閲覧できる<br>
+<br>
 ![b724053548145ff739d6bcc01ef8b3ca](https://user-images.githubusercontent.com/60685829/77886004-0c4f9800-72a3-11ea-9a14-4bd25f9b08d8.gif)
 
 ##### -マイページ追加機能（フロントエンド & バックエンド）
-![0f620ae158987436f3e1c6a0671c696f](https://user-images.githubusercontent.com/60685829/77890612-ba127500-72aa-11ea-87a3-109dc4c7f1be.gif)
+![da0a54ebad99cd47d3ada43bb98d5d29](https://user-images.githubusercontent.com/60685829/77892831-2fcc1000-72ae-11ea-82cf-69458d28e198.gif)
 
+##### -商品削除機能（バックエンド）<br>
+・商品を投稿したユーザーだけに削除ボタンが表示されるように条件分岐を用いた実装<br>
+・商品が削除されるとその投稿に紐づく画像も一緒に削除される処理の実装<br>
 
