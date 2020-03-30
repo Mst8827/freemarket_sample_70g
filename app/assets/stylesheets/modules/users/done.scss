@@ -69,6 +69,20 @@
             font-weight: 600;
           }
         }
+        &__product-name {
+          
+          .sold-sign {
+            background-color: red;
+            color: white;
+            font-size: 8px;
+            font-weight: bold;
+            width: 40px;
+            height: 16px;
+            line-height: 16px;
+            text-align: center;
+            margin-left: 2px;
+          }
+        }
       }
     }
   }
