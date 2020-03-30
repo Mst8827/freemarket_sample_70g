@@ -182,5 +182,11 @@ Ruby/Ruby on Rails/MySQL/Github/AWS/Visual Studio Code/HAML/SCSS/JavaScript/jQue
 <img width="799" alt="スクリーンショット 2020-03-28 17 18 25" src="https://user-images.githubusercontent.com/60685829/77884476-1f149d80-72a0-11ea-94c0-cb82ad8b6e88.png"><br>
 <br>
 -商品詳細画像複数表示（フロントエンド）
-![d2d367292430cb516b813f3f634c9f37](https://user-images.githubusercontent.com/60685829/77885241-a31b5500-72a1-11ea-9a04-16f84561a734.gif)
+![d2d367292430cb516b813f3f634c9f37](https://user-images.githubusercontent.com/60685829/77885241-a31b5500-72a1-11ea-9a04-16f84561a734.gif)<br>
+<br>
+-トップページ/新着投稿一覧表示（バックエンド）<br>
+<br>
+-お気に入り機能（バックエンド）
+![b724053548145ff739d6bcc01ef8b3ca](https://user-images.githubusercontent.com/60685829/77886004-0c4f9800-72a3-11ea-9a14-4bd25f9b08d8.gif)
+
 
