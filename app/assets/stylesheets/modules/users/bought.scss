@@ -44,30 +44,29 @@
             font-weight: 600;
           }
         }
-      }
-
-      &__product-name {
-        color: $blackColer;
-        margin-left: 2px;
-        .bought-sign {
-          width: 40px;
-          height: 16px;
-          background-color: #FF773E;
-          font-size: 8px;
-          font-weight: bold;
-          color: $whiteColer;
-          line-height: 16px;
-          text-align: center;
+        &__product-name {
+          color: $blackColer;
           margin-left: 2px;
-        }
-        .like-counts{
-          font-size: 13px;
-          margin-top: 4px;
-          &::before{
-            font-family: "Font Awesome 5 Free";
+          .bought-sign {
+            width: 40px;
+            height: 16px;
+            background-color: #FF773E;
+            font-size: 8px;
             font-weight: bold;
-            content: '\f004';
-            color: rgb(255, 112, 195);
+            color: $whiteColer;
+            line-height: 16px;
+            text-align: center;
+            margin-left: 2px;
+          }
+          .like-counts{
+            font-size: 13px;
+            margin-top: 4px;
+            &::before{
+              font-family: "Font Awesome 5 Free";
+              font-weight: bold;
+              content: '\f004';
+              color: rgb(255, 112, 195);
+            }
           }
         }
       }
