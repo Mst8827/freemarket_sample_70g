@@ -1,6 +1,10 @@
 # README
 
-## usersテーブル ※gem deviseを利用する
+# ＜FURIMA＞
+
+## ●DB設計
+
+### usersテーブル ※gem deviseを利用する
 |Column|Type|Options|
 |------|----|-------|
 |nickname|string|null: false|
@@ -12,7 +16,7 @@
 |user_first_name_kana,|string|null: false|            
 |birth,|date|null: false|            
 
-### Association
+#### Association
 - has_many :items, dependent: :destroy
 - has_one :profile
 - has_many :comments
@@ -24,19 +28,19 @@
 
 <!-- ------------------------------------- -->
 
-## profileテーブル
+### profileテーブル
 |Column|Type|Options|
 |------|----|-------|
 |introduction|text| - |
 |user_image|string| - |
 |user_id|bigint|foreign_key:true|
 
-### Association
+#### Association
 belongs_to :user
 
 <!-- ------------------------------------- -->
 
-## itemsテーブル
+### itemsテーブル
 |Column|Type|Options|
 |------|----|-------|
 |user_id|bigint|foreign_key:true, type: :integer|
@@ -53,7 +57,7 @@ belongs_to :user
 |shipping_days|string|null: false|
 |likes_count|integer| - |
 
-### Association
+#### Association
 - belongs_to :user
 - has_many :images, dependent: :destroy
 - belongs_to :category, dependent: :destroy, optional: true
@@ -63,31 +67,31 @@ belongs_to :user
 
 <!-- ------------------------------------- -->
 
-## commentsテーブル
+### commentsテーブル
 |Column|Type|Options|
 |------|----|-------|
 |user_id|bigint|foreign_key:true|
 |item_id|bigint|foreign_key:true|
 |content|text|null: false|
 
-### bAssociation
+#### bAssociation
 belongs_to :item
 belongs_to :user
 
 <!-- ------------------------------------- -->
 
-## imagesモデル
+### imagesモデル
 |Column|Type|Options|
 |------|----|-------|
 |image|string|null: false|
 |item_id|bigint|foreign_key:true|
 
-### Association
+#### Association
 - belongs_to :item
 
 <!-- ------------------------------------- -->
 
-## categoriesテーブル  ※gem ancestryを使う
+### categoriesテーブル  ※gem ancestryを使う
 |Column|Type|Options|
 |------|----|-------|
 |name|string|| ※
@@ -96,25 +100,25 @@ belongs_to :user
 ▼modelに以下を記述
 has_ancestry
 
-### Association
+#### Association
 - has_many :items
 - has_ancestry
 
 <!-- ------------------------------------- -->
 
-## creditcardsテーブル  ※gem 'payjp'を使う
+### creditcardsテーブル  ※gem 'payjp'を使う
 |Column|Type|Options|
 |------|----|-------|
 |user_id|bigint|null: false, foreign_key: true|
 |customer_id|string|null: false|
 |card_id|string|null: false|
 
-### Association
+#### Association
 belongs_to :user
 
 <!-- ------------------------------------- -->
 
-## locationテーブル  ※配送先
+### locationテーブル  ※配送先
 |Column|Type|Options|
 |------|----|-------|
 |user_id|bigint|foreign_key:true|
@@ -128,37 +132,43 @@ belongs_to :user
 |building_name|string| - |
 |phone_name|integer| - |
 
-### Association
+#### Association
 belongs_to :user, optional: true
 
 <!-- ------------------------------------- -->
 
-## prefecturesテーブル
+### prefecturesテーブル
 |Column|Type|Options|
 |------|----|-------|
 
-### Association
+#### Association
 
 <!-- ------------------------------------- -->
 
-## sns_credentialsテーブル
+### sns_credentialsテーブル
 |Column|Type|Options|
 |------|----|-------|
 |provider|string|-------|
 |uid|string|-------|
 |user_id|bigint|foreign_key: true|
 
-### Association
+#### Association
 - belongs_to :user, optional: true
 
 <!-- ------------------------------------- -->
 
-## likesテーブル
+### likesテーブル
 |Column|Type|Options|
 |------|----|-------|
 |user_id|bigint|foreign_key:true|
 |item_id|bigint|foreign_key:true|
 
-### Association
+#### Association
 - belongs_to :item, counter_cache: :likes_count
 - belongs_to :user
+
+## ●開発環境  
+Ruby/Ruby on Rails/MySQL/Github/AWS/Visual Studio Code/HAML/SCSS/JavaScript/jQuery
+
+## ●アプリについて
+フリーマーケットのアプリケーション 
