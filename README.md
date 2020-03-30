@@ -171,9 +171,16 @@ belongs_to :user, optional: true
 Ruby/Ruby on Rails/MySQL/Github/AWS/Visual Studio Code/HAML/SCSS/JavaScript/jQuery
 
 ## ●アプリについて
-フリーマーケットのアプリケーション 
-!<img width="1417" alt="スクリーンショット 2020-03-30 13 38 55" src="https://user-images.githubusercontent.com/60685829/77877729-8ecf5c00-7291-11ea-921e-83d0ccc8b2a5.png">
+フリーマーケットのアプリケーション
+<img width="1417" alt="スクリーンショット 2020-03-30 13 38 55" src="https://user-images.githubusercontent.com/60685829/77877729-8ecf5c00-7291-11ea-921e-83d0ccc8b2a5.png">
 
 ## ●開発担当箇所
 -商品出品ページ（フロントエンド）  
-![a6659ef020f78db867b931a184f5aafe](https://user-images.githubusercontent.com/60685829/77884153-7e25e280-729f-11ea-840e-d9225187900a.gif)
+![a6659ef020f78db867b931a184f5aafe](https://user-images.githubusercontent.com/60685829/77884153-7e25e280-729f-11ea-840e-d9225187900a.gif)<br>
+<br>
+-クレジットカード登録ページ（フロントエンド）
+<img width="799" alt="スクリーンショット 2020-03-28 17 18 25" src="https://user-images.githubusercontent.com/60685829/77884476-1f149d80-72a0-11ea-94c0-cb82ad8b6e88.png"><br>
+<br>
+-商品詳細画像複数表示（フロントエンド）
+![a6659ef020f78db867b931a184f5aafe](https://user-images.githubusercontent.com/60685829/77884769-acf08880-72a0-11ea-8811-6c58b00ae216.gif)
+
