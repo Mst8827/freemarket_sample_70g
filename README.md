@@ -173,3 +173,7 @@ Ruby/Ruby on Rails/MySQL/Github/AWS/Visual Studio Code/HAML/SCSS/JavaScript/jQue
 ## ●アプリについて
 フリーマーケットのアプリケーション 
 !<img width="1417" alt="スクリーンショット 2020-03-30 13 38 55" src="https://user-images.githubusercontent.com/60685829/77877729-8ecf5c00-7291-11ea-921e-83d0ccc8b2a5.png">
+
+## ●開発担当箇所
+-商品出品ページ（フロントエンド）  
+![85ecbdcadf2246d64306b06e21271326](https://user-images.githubusercontent.com/60685829/77879536-9bee4a00-7295-11ea-9dc0-711ae762b8ad.gif)
