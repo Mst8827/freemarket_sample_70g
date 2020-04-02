@@ -49,7 +49,7 @@ belongs_to :user
 |brand_name|string| - |
 |item_name|string|null: false|
 |description|text|null: false|
-|price|string|null: false||
+|price|string|null: false|
 |size|string| - |
 |condition|string|null: false|
 |shipping_fee_payer|string|null: false|
@@ -94,8 +94,8 @@ belongs_to :user
 ### categoriesテーブル  ※gem ancestryを使う
 |Column|Type|Options|
 |------|----|-------|
-|name|string|| ※
-|ancestry|string|| ※
+|name|string| - |
+|ancestry|string| - |
 
 ▼modelに以下を記述
 has_ancestry
@@ -148,8 +148,8 @@ belongs_to :user, optional: true
 ### sns_credentialsテーブル
 |Column|Type|Options|
 |------|----|-------|
-|provider|string|-------|
-|uid|string|-------|
+|provider|string| - |
+|uid|string| - |
 |user_id|bigint|foreign_key: true|
 
 #### Association
